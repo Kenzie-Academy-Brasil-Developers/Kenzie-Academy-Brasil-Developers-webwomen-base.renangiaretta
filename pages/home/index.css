@@ -1,1 +1,37 @@
 /* Desenvolva sua estilização aqui... */
+.header{
+    min-height: 740px;
+    width: 100%;
+    background-image: url(../../assets/img/background-img.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.background_img{
+    max-width: 100%;
+}
+
+.header_logo{
+    margin-top: 100px;
+}
+
+.title-1{
+    color: var(--color-grey-3);
+}
+
+.header_description{
+    color: var(--color-grey-5);
+    line-height: 2rem;
+    max-width: 900px;
+}
+
+.header_p-2{
+    line-height: 150%;
+    font-size: var(--text-1);
+    color: var(--color-grey-3);
+}
+
+.anchor_link{
+    text-decoration: none;
+    color: inherit;
+}
